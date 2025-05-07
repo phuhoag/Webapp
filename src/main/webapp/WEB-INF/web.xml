@@ -19,5 +19,27 @@
         <url-pattern>/welcome</url-pattern>
     </servlet-mapping>
 
+
+
+    <!-- LoginServlet với init-param -->
+<!--    <servlet>-->
+<!--        <servlet-name>loginServlet</servlet-name>-->
+<!--        <servlet-class>com.example.LoginServlet</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>welcomeMessage</param-name>-->
+<!--            <param-value>Chào mừng bạn đến với hệ thống!</param-value>-->
+<!--        </init-param>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>loginServlet</servlet-name>-->
+<!--        <url-pattern>/login</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+
+
+
+
+
 </web-app>
 
