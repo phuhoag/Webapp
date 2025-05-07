@@ -7,5 +7,17 @@
 <!--        <servlet-name>HelloServlet</servlet-name>-->
 <!--        <url-pattern>/hello</url-pattern>-->
 <!--    </servlet-mapping>-->
+
+
+    <servlet>
+        <servlet-name>welcomeServlet</servlet-name>
+        <servlet-class>com.example.WelcomeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>welcomeServlet</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+
 </web-app>
 
