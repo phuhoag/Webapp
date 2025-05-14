@@ -40,6 +40,31 @@
 
 
 
+    <servlet>
+        <servlet-name>RedirectServlet</servlet-name>
+        <servlet-class>bai15.RedirectServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RedirectServlet</servlet-name>
+        <url-pattern>/redirect</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>CheckNameServlet</servlet-name>
+        <servlet-class>bai15.CheckNameServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckNameServlet</servlet-name>
+        <url-pattern>/check-name</url-pattern>
+    </servlet-mapping>
+
+
+
+
 
 </web-app>
 
