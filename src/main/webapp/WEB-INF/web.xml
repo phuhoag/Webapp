@@ -66,5 +66,43 @@
 
 
 
+    <servlet>
+        <servlet-name>setContextServlet</servlet-name>
+        <servlet-class>Bai18.SetContextServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>setContextServlet</servlet-name>
+        <url-pattern>/set-context</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>getContextServlet</servlet-name>
+        <servlet-class>Bai18.GetContextServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>getContextServlet</servlet-name>
+        <url-pattern>/get-context</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>visitCounterServlet</servlet-name>
+        <servlet-class>Bai18.VisitCounterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>visitCounterServlet</servlet-name>
+        <url-pattern>/visit</url-pattern>
+    </servlet-mapping>
+
+
+
 </web-app>
 
